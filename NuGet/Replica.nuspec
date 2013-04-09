@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Replica</id>
+		<version>0.1.0</version>
+		<title>Replica for .NET</title>
+		<authors>Maxim Minkov</authors>
+		<owners />
+		<licenseUrl></licenseUrl>
+		<projectUrl>https://github.com/darknode/Replica</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Replica is the component that helps to create object clones to simplify .NET application development.</description>
+		<summary />
+		<tags>clone</tags>
+	</metadata>
+	<files>
+		<file src="..\Source\bin\Release\Replica.dll" target="lib\net40-client"      />
+	</files>
+</package>

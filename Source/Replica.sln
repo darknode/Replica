@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replica", "Replica\Replica.csproj", "{0FD03D3E-5BA9-4715-A6B2-44EF39A8626A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replica.Tests", "Replica.Tests\Replica.Tests.csproj", "{E8E32F83-32C2-4882-B472-BCEFD2113500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD03D3E-5BA9-4715-A6B2-44EF39A8626A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD03D3E-5BA9-4715-A6B2-44EF39A8626A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD03D3E-5BA9-4715-A6B2-44EF39A8626A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD03D3E-5BA9-4715-A6B2-44EF39A8626A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E32F83-32C2-4882-B472-BCEFD2113500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E32F83-32C2-4882-B472-BCEFD2113500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E32F83-32C2-4882-B472-BCEFD2113500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E32F83-32C2-4882-B472-BCEFD2113500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
