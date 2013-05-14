@@ -94,10 +94,10 @@ namespace Replica
 			generator.Emit(OpCodes.Callvirt, typeof(object).GetMethod("GetType"));
 			generator.Emit(OpCodes.Stloc, realType);			
 #if DEBUG
-			//generator.Emit(OpCodes.Ldstr, "Recognized real type:");
-			//generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(string) }));
-			//generator.Emit(OpCodes.Ldloc, realType);
-			//generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(object) }));
+			generator.Emit(OpCodes.Ldstr, "Recognized real type:");
+			generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(string) }));
+			generator.Emit(OpCodes.Ldloc, realType);
+			generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(object) }));
 #endif			
 			generator.Emit(OpCodes.Ldloc, realType);
 			generator.Emit(OpCodes.Call, typeof(Type).GetProperty("IsValueType").GetGetMethod());
@@ -139,10 +139,10 @@ namespace Replica
 			generator.Emit(OpCodes.Stloc, realType);
 
 #if DEBUG
-			//generator.Emit(OpCodes.Ldstr, "Recognized real type:");
-			//generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(string) }));
-			//generator.Emit(OpCodes.Ldloc, realType);
-			//generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(object) }));
+			generator.Emit(OpCodes.Ldstr, "Recognized real type:");
+			generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(string) }));
+			generator.Emit(OpCodes.Ldloc, realType);
+			generator.Emit(OpCodes.Call, typeof(Debug).GetMethod("WriteLine", new[] { typeof(object) }));
 #endif
 			generator.Emit(OpCodes.Ldarg_2);
 			generator.Emit(OpCodes.Ldloc, value);
